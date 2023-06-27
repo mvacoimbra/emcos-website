@@ -1,0 +1,35 @@
+@import '../variables.css';
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.navlist {
+  display: flex;
+  justify-content: right;
+  gap: 6rem;
+}
+
+.navlist__link {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1rem;
+  text-decoration: none;
+  color: var(--gray-logo-2);
+  white-space: nowrap;
+  text-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navlist__link:hover {
+  font-size: 200%;
+}
+
+.navlist__btn {
+  background: var(--grad-bt);
+  color: var(--c1);
+  padding: 1.5rem 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}

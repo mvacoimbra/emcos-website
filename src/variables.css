@@ -1,0 +1,20 @@
+:root {
+  --w: #ffffff;
+  --c1: #f5f5f5;
+  --c2: #e4e4e4;
+  --c3: #d1d1d1;
+  --c4: #bbbbbb;
+  --c5: #acacac;
+  --c6: #999999;
+  --c7: #6c6c6c;
+  --c8: #505050;
+  --c9: #333333;
+  --c10: #222222;
+  --c11: #0e0e0e;
+  --green-emcos: #3b5b33;
+  --gray-logo: #909295;
+  --gray-logo-2: #332f31;
+  --grad-bt: linear-gradient(180deg, #3b5b33 27.6%, #293a25 80.73%);
+  --grad-bt-2: linear-gradient(180deg, #332f31 0%, #1c191a 100%);
+  --grad-icon: linear-gradient(180deg, #979797 27.6%, #585858 80.73%);
+}
