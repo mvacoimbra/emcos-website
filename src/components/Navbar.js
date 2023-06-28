@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header>
       <Container className="container__navbar">
-        <img src={logo} className="logo" />
+        <img src={logo} className="logo" alt='EMCOS logo'/>
         <Navigation></Navigation>
       </Container>
       <div></div>
