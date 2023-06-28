@@ -18,6 +18,7 @@
   grid-template-columns: 1fr 2fr;
   /* position */
   position: fixed;
+  z-index: 10;
 }
 
 .placeholder {
