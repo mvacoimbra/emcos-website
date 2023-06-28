@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 // pages
-import HomePage from './Pages/Home'
-import PortfolioPage from './Pages/Portfolio'
-import ContactPage from './Pages/Contact';
-import BudgetPage from './Pages/Budget';
+import HomePage from './pages/Home';
+import PortfolioPage from './pages/Portfolio';
+import ContactPage from './pages/Contact';
+import BudgetPage from './pages/Budget';
 // css
 import './App.css';
 
