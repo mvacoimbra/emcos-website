@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-.shadow {
+.shadowmask {
   background-color: #000;
   opacity: 0.6;
   position: absolute;

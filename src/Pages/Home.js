@@ -7,6 +7,7 @@ import './Home.css';
 import Navbar from '../components/Navbar';
 // import Container from '../components/Container';
 import VideoBackground from '../components/VideoBackground';
+import VideoPlayer from '../components/VideoPlayer';
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
                 comerciais e industriais.
               </p>
             </div>
-            <Link className='banner__button'>Saiba mais</Link>
+            <Link to='/budget' className='banner__button'>Saiba mais</Link>
           </div>
         </VideoBackground>
       </div>
