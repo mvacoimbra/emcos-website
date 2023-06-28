@@ -17,13 +17,19 @@
   font-weight: 600;
   line-height: 1rem;
   text-decoration: none;
+  text-align: center;
   color: var(--gray-logo-2);
   white-space: nowrap;
-  text-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  transition: border 0.1s;
+}
+
+.navlist__link--active {
+  border-bottom: 0.3rem solid var(--green-emcos);
 }
 
 .navlist__link:hover {
-  font-size: 200%;
+  /* border-bottom: [border-width] [border-style] [border-color]; */
+  border-bottom: 0.3rem solid var(--green-emcos);
 }
 
 .navlist__btn {
@@ -31,5 +37,15 @@
   color: var(--c1);
   padding: 1.5rem 1rem;
   border-radius: 0.6rem;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
 }
+
+.navlist__btn.navlist__link--active {
+  border-bottom: none;
+}
+
+.navlist__btn:hover {
+  border-bottom: none;
+  /* text-shadow: [horizontal-offset] [vertical-offset] [blur-radius] [color]; */
+  text-shadow: 0rem 0rem 0.25rem var(--w);
+}
+
