@@ -5,7 +5,7 @@ import './Home.css';
 // assets
 // components
 import Navbar from '../components/Navbar';
-import Container from '../components/Container';
+// import Container from '../components/Container';
 import VideoBackground from '../components/VideoBackground';
 
 
