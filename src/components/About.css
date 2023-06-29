@@ -1,0 +1,73 @@
+#about-mvv__wrapper {
+  background: var(--c1);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.about__card {
+  background: var(--c2);
+  height: 100%;
+  min-height: 50rem;
+  padding: 4rem 4rem;
+  border-radius: var(--default-radius);
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.about__text {
+  color: var(--c11);
+}
+
+.about__title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  word-wrap: none;
+}
+
+.about__description {
+  text-indent: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  max-width: 32rem;
+  min-width: 32rem;
+  word-wrap: none;
+}
+
+.about__button {
+  text-decoration: none;
+  color: var(--c1);
+  line-height: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+  border-radius: var(--default-radius);
+  background: var(--grad-bt);
+  max-width: fit-content;
+}
+
+.mvv__card {
+  background: var(--w);
+  padding: 9rem 4rem;
+  border-top-right-radius: var(--default-radius);
+  border-bottom-right-radius: var(--default-radius);
+  display: flex;
+  gap: 6rem;
+  z-index: 0;
+}
+
+.Gear {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 90px;
+}

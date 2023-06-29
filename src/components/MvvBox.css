@@ -1,0 +1,32 @@
+.mvv__box {
+  color: var(--c11);
+  max-width: 24rem;
+}
+
+.mvv__header {
+  max-width: fit-content;
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.mvv__title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.mvv__icon {
+  font-size: 4rem;
+  background: var(--grad-bt);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mvv__description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
