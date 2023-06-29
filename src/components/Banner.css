@@ -1,0 +1,41 @@
+.banner__wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.banner__text {
+  color: var(--w);
+  border-left: 0.3rem solid rgba(255, 255, 255, 0.2);
+  padding-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.banner__title {
+  font-size: 4.8rem;
+  line-height: 4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.banner__description {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  width: 44.4rem;
+}
+
+.banner__button {
+  text-decoration: none;
+  color: var(--w);
+  font-size: 1.8rem;
+  line-height: 1rem;
+  margin-left: 2rem;
+  padding: 1.5rem 1rem;
+  background: var(--grad-bt-2);
+  border-radius: var(--default-radius);
+}
+
+.banner__button:hover {
+  text-shadow: 0rem 0rem 0.25rem var(--w);
+}

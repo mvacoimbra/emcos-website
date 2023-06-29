@@ -2,16 +2,17 @@ import React from 'react';
 // css
 import '../components/Navbar.css';
 // assets
-import logo from '../assets/logo_emcos.png';
+import CloudImage from './CloudImage';
 // components
 import Navigation from './Navigation';
-import Container from './Container';
+import Container from './structure/Container';
+
 
 const Navbar = () => {
   return (
     <header>
-      <Container className="container__navbar">
-        <img src={logo} className="logo" alt='EMCOS logo'/>
+      <Container className="navbar__container">
+        <CloudImage publicId="emcos_website/iycbdpcsao3frpn5jqtm" width="200" height="" alt="EMCOS Logo" className="navbar__logo"/>
         <Navigation></Navigation>
       </Container>
       <div></div>

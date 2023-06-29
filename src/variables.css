@@ -17,4 +17,5 @@
   --grad-bt: linear-gradient(180deg, #3b5b33 27.6%, #293a25 80.73%);
   --grad-bt-2: linear-gradient(180deg, #332f31 0%, #1c191a 100%);
   --grad-icon: linear-gradient(180deg, #979797 27.6%, #585858 80.73%);
+  --default-radius: 0.6rem;
 }

@@ -4,44 +4,111 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } */
-.banner__wrapper {
-  display: flex;
-  height: 100%;
-  align-items: center;
+
+.greenUnderline {
+  border-bottom: 0.3rem solid var(--green-emcos);
 }
 
-.banner__text {
-  color: var(--w);
-  border-left: 0.3rem solid rgba(255, 255, 255, 0.2);
-  padding-left: 2rem;
-  margin-bottom: 4rem;
-}
-
-.banner__title {
-  font-size: 4.8rem;
-  line-height: 4rem;
+.greenColor{
+  color: var(--green-emcos);
   font-weight: 600;
-  margin-bottom: 1rem;
 }
 
-.banner__description {
-  font-size: 2rem;
-  line-height: 2.8rem;
+#about-mvv__wrapper {
+  background: var(--c1);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about__card {
+  background: var(--c2);
+  height: 100%;
+  min-height: 50rem;
+  padding: 4rem 4rem;
+  border-radius: var(--default-radius);
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.20);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.about__text {
+  color: var(--c11);
+}
+
+.about__title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  word-wrap: none;
+}
+
+.about__description {
+  text-indent: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  width: 44.4rem;
+  line-height: 2rem;
+  max-width: 32rem;
+  min-width: 32rem;
+  word-wrap: none;
 }
 
-.banner__button {
+.about__button {
   text-decoration: none;
-  color: var(--w);
-  font-size: 1.8rem;
+  color: var(--c1);
   line-height: 1rem;
-  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
   padding: 1.5rem 1rem;
-  background: var(--grad-bt-2);
-  border-radius: 0.6rem;
+  margin-top: 3rem;
+  border-radius: var(--default-radius);
+  background: var(--grad-bt);
+  max-width: fit-content;
 }
 
-.banner__button:hover {
-  text-shadow: 0rem 0rem 0.25rem var(--w);
+.mvv__card {
+  background: var(--w);
+  padding: 9rem 0rem 9rem 4rem;
+  border-top-right-radius: var(--default-radius);
+  border-bottom-right-radius: var(--default-radius);
+  display: flex;
+  gap: 8rem;
+  z-index: 0;
+}
+
+.mvv__box {
+  color: var(--c11);
+  max-width: 24rem;
+  min-width: 24rem;
+}
+
+.mvv__header {
+  max-width: fit-content;
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.mvv__title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.mvv__icon {
+  font-size: 4rem;
+  background: var(--grad-bt);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mvv__description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
