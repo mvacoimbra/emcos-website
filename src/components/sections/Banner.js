@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Banner.css';
 // assets
 // components
-import VideoBackground from './VideoBackground';
+import VideoBackground from '../VideoBackground';
 
 const Banner = () => {
   return (

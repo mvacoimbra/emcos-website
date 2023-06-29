@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import './About.css';
 // assets
 // components
-import Container from '../components/structure/Container';
-import MvvBox from '../components/MvvBox';
-import GearSVG from '../components/structure/GearSVG';
+import Container from '../structure/Container';
+import MvvBox from '../structure/MvvBox';
+import GearSVG from '../structure/GearSVG';
 
 const About = () => {
   return (

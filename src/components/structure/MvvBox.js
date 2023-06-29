@@ -1,7 +1,6 @@
 import React from 'react';
 // css
 import './MvvBox.css';
-import UnorderedList from './UnorderedList';
 // assets
 // components
 
