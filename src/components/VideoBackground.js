@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import './VideoBackground.css';
 // assets
 // components
-import Container from './Container';
+import Container from './structure/Container';
 import VideoPlayer from './VideoPlayer';
 
 const VideoBackground = (props) => {

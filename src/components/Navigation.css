@@ -36,7 +36,7 @@
   background: var(--grad-bt);
   color: var(--c1);
   padding: 1.5rem 1rem;
-  border-radius: 0.6rem;
+  border-radius: var(--default-radius);
 }
 
 .navlist__btn.navlist__link--active {

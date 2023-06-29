@@ -1,11 +1,8 @@
-@import '../variables.css';
-
-.logo {
-  width: 200px;
+.navbar__logo {
   margin-right: 6rem;
 }
 
-.container__navbar {
+.navbar__container {
   /* box */
   width: 100vw;
   padding: 2.5rem 14rem;
