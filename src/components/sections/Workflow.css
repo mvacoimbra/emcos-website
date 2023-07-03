@@ -1,0 +1,14 @@
+.workflow__container {
+  background: var(--b);
+  color: var(--w);
+}
+
+.workflow__steps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+}
+
+

@@ -8,8 +8,6 @@ const MvvBox = (props) => {
   const title = props.title;
   const faIcon = props.faIcon + ' mvv__icon';
 
-  const myList = ['Item 1', 'Item 2', 'Item 3'];
-
   return (
     <div className="mvv__box">
       <div className="mvv__header">

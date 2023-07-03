@@ -1,0 +1,27 @@
+/* background: var(--grad-bt);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+.gearTitle__container {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  border-bottom: 0.4rem solid var(--green-emcos-2);
+  border-bottom-left-radius: var(--default-radius);
+  max-width: fit-content;
+  min-width: 57rem;
+  margin-bottom: 8rem;
+}
+
+.gearTitle__gear {
+  transform: translate(-5%, 70%);
+}
+
+.gearTitle__title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: rem;
+  max-width: 60rem;
+}
+

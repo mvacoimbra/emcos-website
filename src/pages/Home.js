@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import Banner from '../components/sections/Banner';
 import GreenBar from '../components/structure/GreenBar';
 import About from '../components/sections/About';
+import Workflow from '../components/sections/Workflow';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner />
       <GreenBar />
       <About />
+      <Workflow />
     </div>
   );
 };
