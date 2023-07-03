@@ -1,5 +1,6 @@
 :root {
   --w: #ffffff;
+  --b: #000000;
   --c1: #f5f5f5;
   --c2: #e4e4e4;
   --c3: #d1d1d1;
@@ -12,6 +13,7 @@
   --c10: #222222;
   --c11: #0e0e0e;
   --green-emcos: #3b5b33;
+  --green-emcos-2: #293a25;
   --gray-logo: #909295;
   --gray-logo-2: #332f31;
   --grad-bt: linear-gradient(180deg, #3b5b33 27.6%, #293a25 80.73%);

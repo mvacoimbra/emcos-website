@@ -10,7 +10,7 @@ import GearSVG from '../structure/GearSVG';
 
 const About = () => {
   return (
-    <Container id="about-mvv__wrapper" className="">
+    <Container className="about-mvv__wrapper">
       <div className="about__card">
         <div className="about__text">
           <h2 className="about__title">
@@ -55,7 +55,7 @@ const About = () => {
           Sustentabilidade.
         </MvvBox>
       </div>
-      <GearSVG width="400" height="216" fill="#E4E4E4" className="Gear" />
+      <GearSVG width="400" height="216" fill="#E4E4E4" className="mvv__gear" />
     </Container>
   );
 };

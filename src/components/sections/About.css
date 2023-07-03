@@ -1,11 +1,11 @@
-#about-mvv__wrapper {
+.about-mvv__wrapper {
   background: var(--c1);
+  position: relative;
   height: 100%;
   display: flex;
   align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about__card {
@@ -37,8 +37,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
-  max-width: 32rem;
-  min-width: 32rem;
+  width: 32rem;
   word-wrap: none;
 }
 
@@ -58,16 +57,17 @@
 .mvv__card {
   background: var(--w);
   padding: 9rem 4rem;
-  border-top-right-radius: var(--default-radius);
-  border-bottom-right-radius: var(--default-radius);
+  /* border-top-right-radius: var(--default-radius);
+  border-bottom-right-radius: var(--default-radius); */
+  border-radius: var(--default-radius);
   display: flex;
-  gap: 6rem;
+  gap: 3rem;
   z-index: 0;
 }
 
-.Gear {
+.mvv__gear {
   position: absolute;
   z-index: 1;
   bottom: 0px;
-  right: 90px;
+  right: 200px;
 }
