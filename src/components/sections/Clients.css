@@ -1,0 +1,20 @@
+.clients__container {
+  background: var(--w);
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.clients__title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--c11);
+}
+
+.clients__mural {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}

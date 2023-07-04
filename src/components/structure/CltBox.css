@@ -1,0 +1,11 @@
+.clients__box {
+  background: var(--c2);
+  width: 260px;
+  height: 127px;
+  border-radius: var(--default-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+

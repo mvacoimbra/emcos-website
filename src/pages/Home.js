@@ -9,6 +9,7 @@ import GreenBar from '../components/structure/GreenBar';
 import About from '../components/sections/About';
 import Workflow from '../components/sections/Workflow';
 import Segments from '../components/sections/Segments';
+import Clients from '../components/sections/Clients';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <About />
       <Workflow />
       <Segments />
+      <Clients />
     </div>
   );
 };
