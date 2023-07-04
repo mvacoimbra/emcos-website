@@ -6,6 +6,7 @@ import './Workflow.css';
 import Container from '../structure/Container';
 import GreenGearTitle from '../structure/GreenGearTitle';
 import WfBox from '../structure/WfBox';
+import GearSVG from '../structure/GearSVG';
 
 const Workflow = () => {
   return (
@@ -75,6 +76,7 @@ const Workflow = () => {
           É indispensável um controle, para acompanhar a compra, entrega, armazenagem, e consumo dos materiais necessários para a execução do projeto. Além disso, a demanda de material deve ser verificada diariamente, evitando ociosidade no canteiro devido à falta de materiais. Esses materiais devem ser armazenados e separados corretamente, evitando perdas e desperdícios. O uso de aplicativos de gerenciamento de obras auxilia nesse quesito.
         </WfBox>
       </div>
+      <GearSVG width="400" height="216" fill="#0E0E0E" className="workflow__gear" />
     </Container>
   );
 };

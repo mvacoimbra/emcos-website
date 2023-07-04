@@ -1,6 +1,7 @@
 .workflow__container {
   background: var(--b);
   color: var(--w);
+  position: relative;
 }
 
 .workflow__steps {
@@ -11,4 +12,10 @@
   justify-content: center;
 }
 
-
+.workflow__gear {
+  position: absolute;
+  z-index: 1;
+  bottom: 100px;
+  left: -110px;
+  transform: rotate(90deg);
+}

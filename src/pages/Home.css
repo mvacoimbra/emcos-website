@@ -6,7 +6,7 @@
 } */
 
 .greenUnderline {
-  border-bottom: 0.3rem solid var(--green-emcos);
+  border-bottom: 0.4rem solid var(--green-emcos);
 }
 
 .greenColor{

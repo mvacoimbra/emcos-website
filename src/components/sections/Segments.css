@@ -1,0 +1,26 @@
+.segments__container {
+  display: flex;
+  flex-direction: column;
+  gap: 11rem;
+  justify-content: center;
+  background: no-repeat center/cover url(https://res.cloudinary.com/mvacoimbra/image/upload/v1688430213/emcos_website/fundo_lpdyfg.png);
+  background-position: center;
+}
+
+.segments__header {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--c1);
+}
+
+.segments__flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  gap: 4rem;
+  min-height: 35rem;
+}
+
+
