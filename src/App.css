@@ -3,6 +3,27 @@
 
 :root {
   font-size: 62.5%;
-  background-color: #ffffff;
+  background-color: var(--w);
   font-family: 'Montserrat', sans-serif;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--c2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--c8);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c9);
 }
