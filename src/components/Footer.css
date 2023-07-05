@@ -7,6 +7,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10rem;
+  border-bottom: solid .4rem var(--c2);
+  position: relative;
 }
 
 .footer__col--1 {
@@ -110,6 +112,12 @@
 .footer__contact-link:hover {
   text-decoration: none;
   color: var(--green-emcos);
+}
+
+.footer__gear {
+  position: absolute;
+  left: 1rem;
+  bottom: 0rem;
 }
 
 /* ------------------------------------------------------------------ */

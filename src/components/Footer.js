@@ -137,7 +137,15 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <CloudImage
+          publicId="emcos_website/graygear"
+          width="115"
+          height="62"
+          alt=""
+          className="footer__gear"
+        />
       </Container>
+
       <Container id="footer__container--2">
         <p className="footer__rights">
           © 2023 EMCOS ENGENHARIA E CONSULTORIA - TODOS OS DIREITOS RESERVADOS
