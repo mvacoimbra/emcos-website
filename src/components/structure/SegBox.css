@@ -43,6 +43,7 @@
   text-align: right;
   color: var(--c4);
   transition: color 500ms;
+  background: var(--c1)
 }
 
 .segments__button:hover {

@@ -1,0 +1,135 @@
+.footer__container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  min-height: 35rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+
+.footer__col--1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.footer__title {
+  color: var(--c11);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.footer__socials {
+  display: flex;
+  flex: row;
+  gap: 2rem;
+}
+
+.footer__icon {
+  background: var(--grad-bt);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.8rem;
+}
+
+.footer__map {
+  color: var(--c9);
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__map-item {
+  color: var(--c9);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+
+.footer__link {
+  color: var(--c9);
+  text-decoration: none;
+}
+
+.footer__link.footer__link--budget {
+  background: var(--grad-bt);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.footer__button {
+  cursor: pointer;
+  background: none;
+  color: var(--c9);
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+
+.footer__col--2 {
+  max-width: 33rem;
+}
+
+.footer__contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__contact-item {
+  color: var(--c8);
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.footer__contact-link {
+  text-decoration: none;
+  color: var(--c8);
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.footer__contact-link:hover {
+  text-decoration: none;
+  color: var(--green-emcos);
+}
+
+/* ------------------------------------------------------------------ */
+#footer__container--2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--c5);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__rights {
+  text-align: left;
+}
+
+.footer__terms {
+  text-decoration: none;
+  color: var(--c5);
+  text-align: right;
+}

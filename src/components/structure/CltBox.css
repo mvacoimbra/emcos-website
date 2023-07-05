@@ -1,5 +1,5 @@
 .clients__box {
-  background: var(--c2);
+  background: var(--c1);
   width: 260px;
   height: 127px;
   border-radius: var(--default-radius);
@@ -8,4 +8,3 @@
   align-items: center;
   overflow: hidden;
 }
-
