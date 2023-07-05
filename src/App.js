@@ -5,6 +5,7 @@ import HomePage from './pages/Home';
 import PortfolioPage from './pages/Portfolio';
 import ContactPage from './pages/Contact';
 import BudgetPage from './pages/Budget';
+import TermsPage from './pages/Terms'
 // css
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/portfolio' Component={PortfolioPage}/>
         <Route path='/contact' Component={ContactPage}/>
         <Route path='/budget' Component={BudgetPage}/>
+        <Route path='/terms' Component={TermsPage}/>
       </Routes>
     </div>
   );

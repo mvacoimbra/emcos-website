@@ -10,7 +10,7 @@ import GearSVG from '../structure/GearSVG';
 
 const About = () => {
   return (
-    <Container className="about-mvv__wrapper">
+    <Container className="about-mvv__wrapper" id="about__container">
       <div className="about__card">
         <div className="about__text">
           <h2 className="about__title">

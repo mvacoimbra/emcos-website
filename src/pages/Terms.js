@@ -1,12 +1,11 @@
 import React from 'react';
+// css
+import './Terms.css';
 // components
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-// assets
-// css
-import './Budget.css';
 
-const Budget = () => {
+const Terms = () => {
   return (
     <div>
       <Navbar />
@@ -15,4 +14,4 @@ const Budget = () => {
   );
 };
 
-export default Budget;
+export default Terms;
