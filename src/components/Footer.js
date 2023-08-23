@@ -7,92 +7,104 @@ import { Link } from 'react-router-dom';
 import CloudImage from './CloudImage';
 
 const Footer = () => {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+  const FooterSocials = () => {
+    const links = [
+      {
+        faIcon: 'fa-instagram',
+        href: 'https://www.instagram.com/emcosengenharia/',
+      },
+      {
+        faIcon: 'fa-facebook',
+        href: 'https://www.facebook.com/Emcosengenharia/',
+      },
+      {
+        faIcon: 'fa-linkedin',
+        href: 'https://www.linkedin.com/company/emcos/',
+      },
+    ];
+    return (
+      <ul className="footer__socials">
+        {links.map((item, index) => {
+          return (
+            <li className="footer__icon" key={index}>
+              <a href={item.href} target="blank">
+                <i className={`fa-brands ${item.faIcon}`} />
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    );
   };
 
-  const scrollToAbout = () => {
-    const element = document.getElementById('about__container');
-    const rect = element.getBoundingClientRect();
+  const FooterMap = () => {
+    const links = [
+      {
+        name: 'Quem somos',
+        to: '/',
+      },
+      {
+        name: 'Serviços',
+        to: '/portfolio',
+      },
+      {
+        name: 'Contato',
+        to: '/contact',
+      },
+      {
+        name: 'Faça seu orçamento',
+        to: '/budget',
+      },
+    ];
 
-    const topPosition = rect.top + window.scrollY;
-    // console.log(topPosition); // top position relative to the entire page
-    window.scrollTo({
-      top: topPosition,
-      behavior: 'smooth',
-    });
+    const scrollToTop = () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    };
+
+    return (
+      <ul className="footer__map">
+        <li className="footer__map-item">
+          <button
+            className="footer__button"
+            onClick={() => {
+              scrollToTop();
+            }}
+          >
+            Início
+          </button>
+        </li>
+        {links.map((item, index) => {
+          return (
+            <li className="footer__map-item" key={index}>
+              <Link to={item.to} className="footer__link">
+                {item.name}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    );
   };
 
+  // main component
   return (
     <footer>
-      <Container className="footer__container">
+      <Container id="footer__container">
         <div className="footer__col--1">
           <CloudImage
             publicId="emcos_website/iycbdpcsao3frpn5jqtm"
             width="240"
-            height=""
             alt="EMCOS Logo"
             className="footer__logo"
           />
           <div className="footer__icons">
             <p className="footer__title">Siga nossas redes:</p>
-            <div className="footer__socials">
-              <a
-                className="footer__icon"
-                href="https://www.instagram.com/emcosengenharia/"
-                target="blank"
-              >
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a
-                className="footer__icon"
-                href="https://www.facebook.com/Emcosengenharia/"
-                target="blank"
-              >
-                <i className="fa-brands fa-facebook"></i>
-              </a>
-              <a
-                className="footer__icon"
-                href="https://www.linkedin.com/company/emcos/"
-                target="blank"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
+            <FooterSocials />
           </div>
         </div>
-        <div className="footer__col--2">
+        <div className="footer__col--2 footer__map-wrapper">
           <p className="footer__title">Mapa do site:</p>
-          <ul className="footer__map">
-            <li className="footer__map-item">
-              <button onClick={scrollToTop} className="footer__button">
-                Início
-              </button>
-            </li>
-            <li className="footer__map-item">
-              <button onClick={scrollToAbout} className="footer__button">
-                Quem somos
-              </button>
-            </li>
-            <li className="footer__map-item">
-              <Link to="/portfolio" className="footer__link">
-                Serviços
-              </Link>
-            </li>
-            <li className="footer__map-item">
-              <Link to="/contact" className="footer__link">
-                Contato
-              </Link>
-            </li>
-            <li className="footer__map-item">
-              <Link to="/budget" className="footer__link footer__link--budget">
-                Faça seu orçamento
-              </Link>
-            </li>
-          </ul>
+          <FooterMap />
         </div>
         <div className="footer__col--2">
           <p className="footer__title">Fale conosco:</p>

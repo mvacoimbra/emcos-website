@@ -1,4 +1,4 @@
-.clients__container {
+#clients__container {
   background: var(--w);
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
 
 .clients__title {
   font-size: 3.6rem;
+  line-height: 5rem;
   font-weight: 600;
   color: var(--c11);
 }
@@ -17,4 +18,16 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #clients__container {
+    padding: 3rem;
+    gap: 3rem;
+  }
+
+  .clients__mural {
+    overflow: auto;
+    max-height: 60vh;
+  }
 }

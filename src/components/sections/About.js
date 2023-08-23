@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // css
 import './About.css';
-// assets
 // components
 import Container from '../structure/Container';
 import MvvBox from '../structure/MvvBox';

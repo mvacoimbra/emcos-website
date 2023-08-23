@@ -1,9 +1,10 @@
-.segments__container {
+#segments__container {
   display: flex;
   flex-direction: column;
   gap: 11rem;
   justify-content: center;
-  background: no-repeat center/cover url(https://res.cloudinary.com/mvacoimbra/image/upload/v1688430213/emcos_website/fundo_lpdyfg.png);
+  background: no-repeat center/cover
+    url(https://res.cloudinary.com/mvacoimbra/image/upload/v1688430213/emcos_website/fundo_lpdyfg.png);
   background-position: center;
 }
 
@@ -23,4 +24,9 @@
   min-height: 35rem;
 }
 
-
+@media only screen and (max-width: 600px) {
+  #segments__container {
+    padding: 3rem;
+    gap: 3rem;
+  }
+}

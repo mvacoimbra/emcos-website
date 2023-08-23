@@ -1,7 +1,20 @@
+#video__container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .banner__wrapper {
   display: flex;
   height: 100%;
   align-items: center;
+  justify-content: left;
+  overflow: hidden;
+}
+
+.banner__titleBtn {
+  position: relative;
+  left: 10%;
+  width: 100%;
 }
 
 .banner__text {
@@ -9,6 +22,7 @@
   border-left: 0.3rem solid rgba(255, 255, 255, 0.2);
   padding-left: 2rem;
   margin-bottom: 4rem;
+  width: 44.4rem;
 }
 
 .banner__title {
@@ -22,7 +36,6 @@
   font-size: 2rem;
   line-height: 2.8rem;
   font-weight: 500;
-  width: 44.4rem;
 }
 
 .banner__button {
@@ -38,4 +51,10 @@
 
 .banner__button:hover {
   text-shadow: 0rem 0rem 0.25rem var(--w);
+}
+
+@media only screen and (max-width: 600px) {
+  .banner__text {
+    width: 34rem;
+  }
 }

@@ -1,4 +1,4 @@
-.workflow__container {
+#workflow__container {
   background: var(--b);
   color: var(--w);
   position: relative;
@@ -18,4 +18,69 @@
   bottom: 100px;
   left: -110px;
   transform: rotate(90deg);
+}
+
+/* --------- */
+
+.workflow__box {
+  background: var(--c11);
+  width: 36rem;
+  height: 37rem;
+  padding: 3.2rem;
+  border-radius: var(--default-radius);
+  flex-shrink: none;
+}
+
+.workflow__header {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+
+.workflow__head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.workflow__icon {
+  background: var(--grad-icon);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.2rem;
+}
+
+.workflow__title {
+  color: var(--c1);
+  font-size: 1.6rem;
+  font-weight: 600;
+  max-width: 20rem;
+}
+
+.workflow__step {
+  color: var(--c9);
+  font-size: 3.2rem;
+  font-family: 400;
+  text-align: right;
+}
+
+.workflow__description {
+  color: var(--c5);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .workflow__gear {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #workflow__container {
+    padding: 3rem;
+  }
 }
