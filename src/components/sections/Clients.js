@@ -8,7 +8,7 @@ import CltBox from '../structure/CltBox';
 
 const Clients = () => {
   return (
-    <Container className="clients__container">
+    <Container id="clients__container">
       <h2 className="clients__title">
         <em className="greenUnderline">Nossos</em> cliente e parceiros
       </h2>

@@ -4,24 +4,41 @@ background-clip: text;
 -webkit-text-fill-color: transparent; */
 
 .gearTitle__container {
+  /* flex */
   display: flex;
-  align-items: baseline;
+  flex-direction: row;
   gap: 1rem;
-  border-bottom: 0.4rem solid var(--green-emcos-2);
+  align-items: end;
+  /* box */
+  border-bottom: 0.4rem solid var(--green-emcos);
   border-bottom-left-radius: var(--default-radius);
   max-width: fit-content;
-  min-width: 57rem;
   margin-bottom: 8rem;
 }
 
 .gearTitle__gear {
-  transform: translate(-5%, 70%);
+  transform: translateX(-5%);
+  height: 60px;
 }
 
 .gearTitle__title {
   font-size: 3.6rem;
   font-weight: 600;
-  line-height: rem;
   max-width: 60rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .gearTitle__title {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gearTitle__title {
+    font-size: 2.1rem;
+  }
+
+  .gearTitle__gear {
+    height: 45px;
+  }
+}

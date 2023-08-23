@@ -1,7 +1,10 @@
 .about-mvv__wrapper {
+  /* box */
   background: var(--c1);
   position: relative;
-  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  /* flex */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,16 +12,21 @@
 }
 
 .about__card {
+  /* box */
   background: var(--c2);
-  height: 100%;
+  height: auto;
   min-height: 50rem;
   padding: 4rem 4rem;
   border-radius: var(--default-radius);
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+  /* flex */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* position */
+  position: absolute;
   z-index: 1;
+  left: 10%;
 }
 
 .about__text {
@@ -55,19 +63,57 @@
 }
 
 .mvv__card {
+  /* box */
   background: var(--w);
   padding: 9rem 4rem;
-  /* border-top-right-radius: var(--default-radius);
-  border-bottom-right-radius: var(--default-radius); */
+  margin: 5rem 0rem;
   border-radius: var(--default-radius);
+  width: 100%;
+  min-width: 330px;
+  /* flex */
   display: flex;
+  justify-content: right;
   gap: 3rem;
+  /* position */
   z-index: 0;
 }
 
 .mvv__gear {
   position: absolute;
   z-index: 1;
-  bottom: 0px;
-  right: 200px;
+  bottom: 0rem;
+  right: 1%;
+}
+
+@media only screen and (max-width: 1460px) {
+  .about__card {
+    position: relative;
+    left: 0;
+    padding: 3rem 1rem;
+    min-height: auto;
+  }
+
+  .mvv__card {
+    margin: 0;
+    width: auto;
+    padding: 3rem 1rem;
+  }
+
+  .mvv__gear {
+    right: -10rem;
+    bottom: -10rem;
+    transform: rotateZ(300deg);
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .mvv__card {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mvv__gear {
+    display: none;
+  }
 }

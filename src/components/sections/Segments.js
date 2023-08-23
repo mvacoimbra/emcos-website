@@ -8,7 +8,7 @@ import SegBox from '../structure/SegBox';
 
 const Segments = () => {
   return (
-    <Container className="segments__container">
+    <Container id="segments__container">
       <div className="segments__header">
         <h2>
           Segmentos de{' '}

@@ -11,7 +11,7 @@ const VideoBackground = (props) => {
   const classes = '' + props.className;
 
   return (
-    <Container className="divWithVideo">
+    <Container className="divWithVideo" id="video__container">
       <div className={classes}>{props.children}</div>
 
       <div className="shadowmask"></div>
