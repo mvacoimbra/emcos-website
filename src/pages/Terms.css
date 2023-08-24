@@ -1,0 +1,48 @@
+#terms__container {
+  color: var(--c-11);
+  font-size: 2rem;
+}
+
+.terms__main-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.terms__alt-title {
+  font-weight: 600;
+}
+
+.terms__list {
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  /* text */
+  list-style-type: decimal;
+  line-height: 2.5rem;
+  text-indent: 2em;
+}
+
+.terms__list p {
+  text-indent: 0rem;
+}
+
+.terms__list li::marker {
+  font-weight: 600;
+}
+
+.terms__dot-list-title {
+  margin-bottom: 1em;
+}
+
+.terms__dot-list {
+  list-style-type: disc;
+}
+
+@media only screen and (max-width: 600px) {
+  #terms__container {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+}
