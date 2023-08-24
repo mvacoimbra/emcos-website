@@ -6,16 +6,20 @@ import CloudImage from './CloudImage';
 // components
 import Navigation from './Navigation';
 import Container from './structure/Container';
-
+import NavBurguer from './NavBurguer';
 
 const Navbar = () => {
   return (
     <header>
       <Container className="navbar__container" id="navbar__container">
-        <CloudImage publicId="emcos_website/iycbdpcsao3frpn5jqtm" width="200" height="" alt="EMCOS Logo" className="navbar__logo"/>
-        <Navigation></Navigation>
+        <CloudImage
+          publicId="emcos_website/iycbdpcsao3frpn5jqtm"
+          alt="EMCOS Logo"
+          className="navbar__logo"
+        />
+        <Navigation />
+        <NavBurguer />
       </Container>
-      <div></div>
       <div className="placeholder" />
     </header>
   );
