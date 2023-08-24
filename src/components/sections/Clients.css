@@ -20,6 +20,17 @@
   gap: 4rem;
 }
 
+.clients__box {
+  background: var(--c1);
+  width: 260px;
+  height: 127px;
+  border-radius: var(--default-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 600px) {
   #clients__container {
     padding: 3rem;

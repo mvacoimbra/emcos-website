@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // css
 import '../components/Navbar.css';
 // assets
@@ -12,11 +13,13 @@ const Navbar = () => {
   return (
     <header>
       <Container className="navbar__container" id="navbar__container">
-        <CloudImage
-          publicId="emcos_website/iycbdpcsao3frpn5jqtm"
-          alt="EMCOS Logo"
-          className="navbar__logo"
-        />
+        <Link to="/">
+          <CloudImage
+            publicId="emcos_website/iycbdpcsao3frpn5jqtm"
+            alt="EMCOS Logo"
+            className="navbar__logo"
+          />
+        </Link>
         <Navigation />
         <NavBurguer />
       </Container>
