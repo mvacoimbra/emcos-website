@@ -77,6 +77,10 @@
   .workflow__gear {
     display: none;
   }
+
+  .workflow__box {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {

@@ -22,7 +22,7 @@
   border-left: 0.3rem solid rgba(255, 255, 255, 0.2);
   padding-left: 2rem;
   margin-bottom: 4rem;
-  width: 44.4rem;
+  max-width: 50rem;
 }
 
 .banner__title {
@@ -36,6 +36,7 @@
   font-size: 2rem;
   line-height: 2.8rem;
   font-weight: 500;
+  white-space: wrap;
 }
 
 .banner__button {
@@ -55,6 +56,10 @@
 
 @media only screen and (max-width: 600px) {
   .banner__text {
-    width: 34rem;
+    padding-left: 1rem;
+  }
+
+  .banner__titleBtn {
+    left: 0;
   }
 }
