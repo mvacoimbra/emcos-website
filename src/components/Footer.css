@@ -19,7 +19,7 @@
 .footer__icons {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .footer__title {

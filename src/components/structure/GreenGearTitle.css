@@ -8,7 +8,7 @@ background-clip: text;
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  align-items: end;
+  align-items: flex-end;
   /* box */
   border-bottom: 0.4rem solid var(--green-emcos);
   border-bottom-left-radius: var(--default-radius);

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  align-items: end;
+  align-items: last baseline;
   justify-content: center;
   background-color: var(--c1);
 }
