@@ -21,7 +21,6 @@ const Home = () => {
       <Workflow />
       <Segments />
       <Clients />
-      <GreenBar />
       <Footer />
     </div>
   );

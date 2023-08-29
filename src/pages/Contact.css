@@ -1,0 +1,63 @@
+.contact__container {
+  /* flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: end;
+  justify-content: center;
+  background-color: var(--c1);
+}
+
+.contact__info {
+  /* box */
+  background-color: var(--c11);
+  padding: 5rem;
+  border-radius: var(--default-radius);
+  width: clamp(450px, 500px, 600px);
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* text */
+  color: var(--c5);
+  font-size: 1.6rem;
+}
+
+.contact__info a {
+  text-decoration: none;
+  color: var(--c5);
+}
+
+.contact__info a:hover {
+  text-shadow: var(--w) 0rem 0rem 0.2rem;
+}
+
+.contact__info i {
+  margin-right: 1rem;
+}
+
+.contact__info-title {
+  color: var(--c2);
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.contact__phones {
+  display: flex;
+  gap: 1em;
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
+.contact__socials {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact__container {
+    padding: 3rem;
+  }
+}

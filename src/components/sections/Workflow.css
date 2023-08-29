@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.workflow__main-title {
+  margin-bottom: 8rem;
+}
+
 .workflow__steps {
   display: flex;
   flex-direction: row;

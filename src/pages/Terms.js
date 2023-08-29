@@ -5,11 +5,16 @@ import './Terms.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Container from '../components/structure/Container';
+import PageTitle from '../components/structure/PageTitle';
 
 const Terms = () => {
   return (
     <div>
       <Navbar />
+      <PageTitle
+        title={'Termos de uso e política de privacidade'}
+        altTitle={'Conheça nossos termos.'}
+      />
       <Container id="terms__container">
         <article>
           <h1 className="terms__main-title">

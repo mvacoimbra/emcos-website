@@ -1,0 +1,39 @@
+.contact-form__container {
+  background: var(--c2);
+  border-radius: var(--default-radius);
+  padding: 4rem;
+  width: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form__title {
+  color: var(--c11);
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-left: solid 0.3rem var(--green-emcos);
+  padding-left: 0.5rem;
+}
+
+.contact-form__list {
+  margin-bottom: 5rem;
+}
+
+.mensagem {
+  width: 100%;
+  height: clamp(100px, 160px, 200px);
+}
+
+.contact-form__btn {
+  background: var(--grad-bt);
+  color: var(--w);
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 2rem;
+  width: 30%;
+  border-radius: var(--default-radius);
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // css
 import './Footer.css';
 // components
 import Container from './structure/Container';
-import { Link } from 'react-router-dom';
 import CloudImage from './CloudImage';
+import GreenBar from './structure/GreenBar';
 
 const Footer = () => {
   const FooterSocials = () => {
@@ -89,6 +90,7 @@ const Footer = () => {
   // main component
   return (
     <footer>
+      <GreenBar />
       <Container id="footer__container">
         <div className="footer__col--1">
           <CloudImage

@@ -1,0 +1,15 @@
+.page-title__container {
+  color: var(--c11);
+  background: var(--c2);
+}
+
+.page-title__subtitle {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .page-title__container {
+    padding: 3rem;
+  }
+}
