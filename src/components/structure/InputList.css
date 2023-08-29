@@ -1,0 +1,39 @@
+.form__input-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  justify-content: center;
+  max-width: 65rem;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__input label {
+  color: var(--c11);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.form__input input,
+textarea {
+  border-radius: var(--default-radius);
+  background: var(--c1);
+  border: 0.1rem solid var(--c2);
+  height: 4rem;
+  width: 30rem;
+  padding: 1rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.form__input input::placeholder {
+  color: var(--c6);
+  font-size: 1.2rem;
+  line-height: 4rem;
+  font-family: Montserrat, sans-serif;
+}

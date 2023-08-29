@@ -13,18 +13,16 @@ background-clip: text;
   border-bottom: 0.4rem solid var(--green-emcos);
   border-bottom-left-radius: var(--default-radius);
   max-width: fit-content;
-  margin-bottom: 8rem;
 }
 
 .gearTitle__gear {
-  transform: translateX(-5%);
+  transform: translate(-5%, 5%);
   height: 60px;
 }
 
 .gearTitle__title {
   font-size: 3.6rem;
   font-weight: 600;
-  max-width: 60rem;
 }
 
 @media only screen and (max-width: 900px) {

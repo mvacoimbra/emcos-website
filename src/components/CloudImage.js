@@ -4,16 +4,14 @@ import { CloudinaryImage } from '@cloudinary/url-gen';
 import { URLConfig } from '@cloudinary/url-gen';
 import { CloudConfig } from '@cloudinary/url-gen';
 import { fill } from '@cloudinary/url-gen/actions/resize';
-// css
-// import './CloudnaryImage.css';
-// assets
-// components
 
 const CloudImage = (props) => {
   const classes = props.className;
 
   // Set the Cloud configuration and URL configuration
-  const cloudConfig = new CloudConfig({ cloudName: 'mvacoimbra' });
+  const cloudConfig = new CloudConfig({
+    cloudName: process.env.REACT_APP_CLOUDINARY_CLOUDNAME,
+  });
   const urlConfig = new URLConfig({ secure: true });
 
   // Instantiate and configure a CloudinaryImage object.
@@ -23,8 +21,11 @@ const CloudImage = (props) => {
 
   // Render the image in a React component.
   return (
-    <AdvancedImage cldImg={myImage} className={classes} alt={props.alt}>
-    </AdvancedImage>
+    <AdvancedImage
+      cldImg={myImage}
+      className={classes}
+      alt={props.alt}
+    ></AdvancedImage>
   );
 };
 

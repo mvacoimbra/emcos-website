@@ -1,8 +1,6 @@
 import React from 'react';
-import { useEffect, useRef } from 'react';
 // css
 import './VideoBackground.css';
-// assets
 // components
 import Container from './structure/Container';
 import VideoPlayer from './VideoPlayer';

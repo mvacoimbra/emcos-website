@@ -1,7 +1,6 @@
 import React from 'react';
 // css
 import './Workflow.css';
-// assets
 // components
 import Container from '../structure/Container';
 import GreenGearTitle from '../structure/GreenGearTitle';
@@ -55,7 +54,10 @@ const Workflow = () => {
 
   return (
     <Container id="workflow__container">
-      <GreenGearTitle title="Entenda como funciona nosso fluxo de trabalho" />
+      <GreenGearTitle
+        title="Entenda como funciona nosso fluxo de trabalho"
+        className="workflow__main-title"
+      />
       <ul className="workflow__steps">
         {workflowSteps.map((item, index) => {
           const step = index + 1;
