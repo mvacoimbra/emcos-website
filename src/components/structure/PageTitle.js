@@ -5,11 +5,17 @@ import './PageTitle.css';
 import Container from './Container';
 import GreenGearTitle from './GreenGearTitle';
 
-const PageTitle = ({ className, title, altTitle }) => {
+const PageTitle = ({
+  classTitle,
+  classContainer,
+  classAltTitle,
+  title,
+  altTitle,
+}) => {
   return (
-    <Container className="page-title__container">
-      <GreenGearTitle title={title} className={className} />
-      <h3 className="page-title__subtitle">{altTitle}</h3>
+    <Container className={`page-title__container ${classContainer}`}>
+      <GreenGearTitle title={title} className={classTitle} />
+      <h3 className={`page-title__subtitle ${classAltTitle}`}>{altTitle}</h3>
     </Container>
   );
 };

@@ -21,7 +21,8 @@
 }
 
 .form__input input,
-textarea {
+textarea,
+select {
   border-radius: var(--default-radius);
   background: var(--c1);
   border: 0.1rem solid var(--c2);

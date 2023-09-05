@@ -9,13 +9,13 @@ const ContactForm = () => {
   const inputs = [
     {
       label: 'Nome',
-      name: 'nome',
+      name: 'name',
       type: 'text',
       placeholder: '',
     },
     {
       label: 'Sobrenome',
-      name: 'sobrenome',
+      name: 'nickname',
       type: 'text',
       placeholder: '',
     },
@@ -27,7 +27,7 @@ const ContactForm = () => {
     },
     {
       label: 'Telefone',
-      name: 'telefone',
+      name: 'phone',
       type: 'tel',
       placeholder: '(00) 00000-0000',
     },
@@ -68,7 +68,7 @@ const ContactForm = () => {
             placeholder="O que você precisa?"
             cols={'30'}
             rows={'10'}
-            className="mensagem"
+            className="message"
           />
         </div>
         <button type="submit" className="contact-form__btn">
