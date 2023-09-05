@@ -12,4 +12,8 @@
   .page-title__container {
     padding: 3rem;
   }
+
+  .page-title__subtitle {
+    font-size: 1.8rem;
+  }
 }

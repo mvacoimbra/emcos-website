@@ -1,0 +1,111 @@
+.budget-form__container {
+  border-radius: var(--default-radius);
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10rem;
+}
+
+.budget-form__form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: var(--c11);
+  border-top-left-radius: var(--default-radius);
+  border-bottom-left-radius: var(--default-radius);
+  padding: 3rem;
+}
+
+.budget-form__form.right {
+  background-color: var(--w);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: var(--default-radius);
+  border-bottom-right-radius: var(--default-radius);
+}
+
+.budget-form__subtitle {
+  color: var(--c2);
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-left: solid 0.3rem var(--c4);
+  padding-left: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.budget-form__subtitle.right {
+  border-left: solid 0.3rem var(--green-emcos);
+  color: var(--c11);
+  margin-top: 2rem;
+}
+
+.budget-form__checkbox-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.budget-form__checkbox {
+  background-color: var(--c9);
+  padding: 1rem;
+  border-radius: var(--default-radius);
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: var(--c4);
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.budget-form__checkbox--active {
+  background-color: var(--c1);
+  color: var(--c9);
+}
+
+.budget-form__checkbox-input {
+  display: none;
+}
+
+.budget-form__text {
+  width: 100%;
+  min-height: 10rem;
+  border-radius: var(--default-radius);
+  background-color: var(--c1);
+  font-family: Montserrat;
+  padding: 1rem;
+  font-weight: 600;
+  color: var(--c11);
+}
+
+.budget-form__term-check {
+  font-size: 1.4rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: var(--c11);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.budget-form__term-check a {
+  color: var(--c11);
+}
+
+.contact-form__btn.budget {
+  width: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .budget-form__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

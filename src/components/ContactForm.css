@@ -36,4 +36,5 @@
   padding: 2rem;
   width: 30%;
   border-radius: var(--default-radius);
+  cursor: pointer;
 }
