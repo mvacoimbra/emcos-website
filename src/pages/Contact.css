@@ -3,9 +3,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  align-items: last baseline;
+  align-items: last end;
   justify-content: center;
   background-color: var(--c1);
+  margin-bottom: 5rem;
 }
 
 .contact__info {
@@ -14,6 +15,7 @@
   padding: 5rem;
   border-radius: var(--default-radius);
   width: clamp(450px, 500px, 600px);
+  height: fit-content;
   /* flex */
   display: flex;
   flex-direction: column;

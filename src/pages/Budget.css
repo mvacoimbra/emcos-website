@@ -13,6 +13,9 @@
   color: var(--c1);
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .budget__backcard {
@@ -26,7 +29,7 @@
 }
 
 .budget__backgear {
-  height: 15rem;
+  height: 13rem;
   position: absolute;
   right: 0;
   bottom: 0;

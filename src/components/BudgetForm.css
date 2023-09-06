@@ -1,8 +1,10 @@
 .budget-form__container {
   border-radius: var(--default-radius);
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1.5fr 2fr;
   width: 100%;
+  max-width: 130rem;
   position: relative;
   z-index: 1;
   margin-bottom: 10rem;
@@ -13,8 +15,6 @@
   flex-direction: column;
   gap: 3rem;
   background-color: var(--c11);
-  border-top-left-radius: var(--default-radius);
-  border-bottom-left-radius: var(--default-radius);
   padding: 3rem;
 }
 
@@ -22,8 +22,6 @@
   background-color: var(--w);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  border-top-right-radius: var(--default-radius);
-  border-bottom-right-radius: var(--default-radius);
 }
 
 .budget-form__subtitle {
@@ -83,6 +81,7 @@
   padding: 1rem;
   font-weight: 600;
   color: var(--c11);
+  resize: vertical;
 }
 
 .budget-form__term-check {
@@ -101,6 +100,7 @@
 
 .contact-form__btn.budget {
   width: fit-content;
+  font-family: Montserrat;
 }
 
 @media only screen and (max-width: 600px) {

@@ -296,7 +296,7 @@ const BudgetForm = () => {
               value=""
               required
             ></input>
-            <label for="terms">
+            <label htmlFor="terms">
               Li e aceito os <Link to={'/terms'}>termos e condições</Link>
             </label>
           </div>
