@@ -23,9 +23,10 @@
   margin-bottom: 5rem;
 }
 
-.mensagem {
+.message {
   width: 100%;
   height: clamp(100px, 160px, 200px);
+  resize: vertical;
 }
 
 .contact-form__btn {
@@ -37,4 +38,5 @@
   width: 30%;
   border-radius: var(--default-radius);
   cursor: pointer;
+  font-family: Montserrat;
 }

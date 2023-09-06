@@ -26,7 +26,7 @@
   /* position */
   position: absolute;
   z-index: 1;
-  left: 10%;
+  left: 17%;
 }
 
 .about__text {
@@ -69,6 +69,7 @@
   margin: 5rem 0rem;
   border-radius: var(--default-radius);
   width: 100%;
+  max-width: 1300px;
   min-width: 330px;
   /* flex */
   display: flex;
@@ -85,7 +86,13 @@
   right: 1%;
 }
 
-@media only screen and (max-width: 1460px) {
+@media only screen and (max-width: 1600px) {
+  .about__card {
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
   .about__card {
     position: relative;
     left: 0;

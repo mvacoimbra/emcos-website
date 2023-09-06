@@ -64,7 +64,7 @@ const ContactForm = () => {
         <div className="form__input">
           <label>Mensagem</label>
           <textarea
-            name="mensagem"
+            name="message"
             placeholder="O que você precisa?"
             cols={'30'}
             rows={'10'}

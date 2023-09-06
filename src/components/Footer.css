@@ -64,6 +64,10 @@
   text-decoration: none;
 }
 
+.footer__link:hover {
+  color: var(--green-emcos);
+}
+
 .footer__link.footer__link--budget {
   background: var(--grad-bt);
   background-clip: text;
@@ -79,6 +83,10 @@
   font-size: 1.6rem;
   font-weight: 600;
   font-family: 'Montserrat';
+}
+
+.footer__button:hover {
+  color: var(--green-emcos);
 }
 
 .footer__col--2 {
