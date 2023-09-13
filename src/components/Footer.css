@@ -3,10 +3,9 @@
   grid-template-columns: 1fr 1fr 1fr; */
   min-height: 35rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 10rem;
   border-bottom: solid 0.4rem var(--c2);
   position: relative;
 }
