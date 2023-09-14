@@ -19,22 +19,19 @@ const Segments = () => {
       </div>
       <div className="segments__flexbox">
         <SegBox title="Civil" faIcon="fa-solid fa-house">
-          Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito
-          paradis? Toma um mé que o mundo vai girarzis!In elementis mé pra quem
-          é amistosis quis leo.Suco de cevadiss, é um leite divinis, qui tem
-          lupuliz, matis, aguis e fermentis.Paisis, filhis, espiritis santis.
+          {
+            'O segmento de obras civis engloba a construção de residências e estabelecimentos comerciais. É responsável por criar espaços habitacionais e comerciais funcionais e seguros. A busca por eficiência energética e sustentabilidade é uma tendência crescente nesse setor. Em resumo, as obras civis desempenham um papel fundamental na construção de lares e locais de negócios para as comunidades.'
+          }
         </SegBox>
         <SegBox title="Industrial" faIcon="fa-solid fa-industry">
-          Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia
-          nois paga.Praesent vel viverra nisi. Mauris aliquet nunc non turpis
-          scelerisque, eget.Diuretics paradis num copo é motivis de denguis.Si
-          num tem leite então bota uma pinga aí cumpadi!
+          {
+            'O segmento industrial envolve a construção de instalações de produção e armazenamento para empresas. Essas estruturas são projetadas para a fabricação de uma ampla variedade de produtos e bens. A eficiência energética e a sustentabilidade são preocupações crescentes nesta área. Em resumo, o setor industrial desempenha um papel fundamental na produção e no suporte aos negócios.'
+          }
         </SegBox>
-        <SegBox title="Infra" faIcon="fa-solid fa-road">
-          Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo
-          é motivis de denguis.Suco de cevadiss deixa as pessoas mais
-          interessantis.Quem manda na minha terra sou euzis!Todo mundo vê os
-          porris que eu tomo, mas ninguém vê os tombis que eu levo!
+        <SegBox title="Infraestrutura" faIcon="fa-solid fa-road">
+          {
+            'O segmento de infraestrutura concentra-se na criação e manutenção das bases essenciais para o funcionamento das cidades e regiões. Isso inclui a construção de estradas, rodovias, viadutos e pontes, que permitem a mobilidade eficiente de pessoas e mercadorias. Além disso, abrange a implementação de sistemas de água e esgoto, garantindo o fornecimento de água potável e o tratamento adequado de resíduos.'
+          }
         </SegBox>
       </div>
     </Container>

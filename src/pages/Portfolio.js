@@ -46,14 +46,31 @@ const Portfolio = () => {
       title: 'Casa de alto padrão | Anápolis - GO',
     },
     {
-      projectFolder: 'anapolis_city',
-      title: 'Casa de alto padrão | Anápolis - GO',
+      projectFolder: 'qualicaps_salao',
+      title: 'Reforma Salão Qualicaps | Anápolis - GO',
     },
     {
-      projectFolder: 'anapolis_city',
-      title: 'Casa de alto padrão | Anápolis - GO',
+      projectFolder: 'emporio_jr',
+      title: 'Reforma Empório JR | Anápolis - GO',
+    },
+    {
+      projectFolder: 'bso_uruacu',
+      title: 'Reparo BSO EcoRodovias | Uruaçu - GO',
+    },
+    {
+      projectFolder: 'reparo_km93',
+      title: 'Reparo Km 93 Concebra | Anápolis - GO',
     },
   ];
+
+  gallery.sort((a, b) => {
+    const nameA = a.title.toLowerCase();
+    const nameB = b.title.toLowerCase();
+
+    if (nameA < nameB) return -1;
+    if (nameA > nameB) return 1;
+    return 0;
+  });
 
   // MAIN COMPONENT
   return (
