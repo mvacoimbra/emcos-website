@@ -1,38 +1,36 @@
 import React from 'react';
-import { useState } from 'react';
+import { useRef, useEffect } from 'react';
 // css
 import './SegBox.css';
-// assets
 // components
 
 const SegBox = (props) => {
+  const faIcon = 'segments__icon ' + props.faIcon;
+  const title = props.title;
 
-  const faIcon = "segments__icon " + props.faIcon
-  const title = props.title
+  const boxCard = useRef(null);
 
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  useEffect(() => {
+    console.log(boxCard.current);
+  }, []);
 
   const segmentClickHandler = () => {
-    setIsCollapsed(!isCollapsed);
+    boxCard.current.classList.toggle('segments__box--active');
   };
 
   return (
-    <div className={`segments__box ${
-      isCollapsed ? '' : 'segments__box--collapsed'
-    }`}>
+    <div className="segments__box" ref={boxCard}>
       <div className="segments__boxheader">
-        <div className="segments__icontitle">
-          <i className={faIcon}></i>
-          <h3 className="segments__title">{title}</h3>
-        </div>
+        <i className={faIcon}></i>
+        <h3 className="segments__title">{title}</h3>
         <button
           className="segments__button fa-solid fa-chevron-down"
           onClick={segmentClickHandler}
         ></button>
       </div>
-      <p className="segments__description">
-        {props.children}
-      </p>
+      <div className="segments__description">
+        <p>{props.children}</p>
+      </div>
     </div>
   );
 };
