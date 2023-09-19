@@ -3,9 +3,10 @@
   flex-direction: column;
   gap: 11rem;
   justify-content: center;
-  background: no-repeat center/cover
+  background: no-repeat top/100vw 100vh
     url(https://res.cloudinary.com/mvacoimbra/image/upload/v1688430213/emcos_website/fundo_lpdyfg.png);
-  background-position: center;
+  /* background-position: center; */
+  padding-bottom: 24rem;
 }
 
 .segments__header {
@@ -17,16 +18,18 @@
 .segments__flexbox {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: top;
   flex-wrap: wrap;
   gap: 4rem;
-  min-height: 35rem;
+  /* min-height: 35rem; */
 }
 
 @media only screen and (max-width: 600px) {
   #segments__container {
     padding: 3rem;
     gap: 3rem;
+    background-size: auto 200vh;
+    background-position: top center;
   }
 }
