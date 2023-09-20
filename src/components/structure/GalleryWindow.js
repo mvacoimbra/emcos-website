@@ -11,6 +11,7 @@ const GalleryWindow = ({ active, updateWindowStatus, currentFolder }) => {
   const handleCloseClick = () => {
     setIsActive(false);
     updateWindowStatus(isActive);
+    setCurrentImage(0);
   };
 
   const nextImage = () => {

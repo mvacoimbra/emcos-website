@@ -2,7 +2,6 @@
   background: var(--c2);
   border-radius: var(--default-radius);
   padding: 4rem;
-  width: auto;
 }
 
 .form {
@@ -35,7 +34,7 @@
   font-size: 1.8rem;
   font-weight: 600;
   padding: 2rem;
-  width: 30%;
+  width: max(200px, 50%);
   border-radius: var(--default-radius);
   cursor: pointer;
   font-family: Montserrat;

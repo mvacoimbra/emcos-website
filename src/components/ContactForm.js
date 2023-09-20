@@ -29,7 +29,7 @@ const ContactForm = () => {
       label: 'Telefone',
       name: 'phone',
       type: 'tel',
-      placeholder: '(00) 00000-0000',
+      placeholder: '(00) 0 0000-0000',
     },
   ];
 

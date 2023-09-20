@@ -1,11 +1,8 @@
 .form__input-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 3rem;
-  row-gap: 1rem;
-  justify-content: center;
-  max-width: 65rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(5rem, 100%);
+  gap: 1rem;
 }
 
 .form__input {
@@ -27,7 +24,7 @@ select {
   background: var(--c1);
   border: 0.1rem solid var(--c2);
   height: 4rem;
-  width: 30rem;
+  /* width: 30rem; */
   padding: 1rem;
   font-family: Montserrat, sans-serif;
 }
@@ -37,4 +34,10 @@ select {
   font-size: 1.2rem;
   line-height: 4rem;
   font-family: Montserrat, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .form__input-list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
