@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 // css
 import './NavBurguer.css';
-// components
 
 const NavBurguer = () => {
   const location = useLocation();

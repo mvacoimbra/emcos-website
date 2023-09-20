@@ -11,8 +11,6 @@ const VideoPlayer = ({ className }) => {
     },
   });
 
-  console.log(process.env.REACT_APP_CLOUDINARY_CLOUDNAME);
-
   // Use the video with public ID'
   const myVideo = cld.video('emcos_website/pi3ca2etadscrh28h7jh');
 
@@ -20,7 +18,7 @@ const VideoPlayer = ({ className }) => {
   myVideo.resize(fill(1280, 720));
 
   return (
-    <div>
+    <>
       <AdvancedVideo
         cldVid={myVideo}
         autoPlay
@@ -28,7 +26,7 @@ const VideoPlayer = ({ className }) => {
         loop
         className={className}
       />
-    </div>
+    </>
   );
 };
 

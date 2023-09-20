@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // css
 import '../components/Navbar.css';
-// assets
-import CloudImage from './CloudImage';
 // components
+import CloudImage from './CloudImage';
 import Navigation from './Navigation';
 import Container from './structure/Container';
 import NavBurguer from './NavBurguer';

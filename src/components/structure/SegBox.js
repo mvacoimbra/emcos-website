@@ -1,18 +1,13 @@
 import React from 'react';
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 // css
 import './SegBox.css';
-// components
 
 const SegBox = (props) => {
   const faIcon = 'segments__icon ' + props.faIcon;
   const title = props.title;
 
   const boxCard = useRef(null);
-
-  useEffect(() => {
-    console.log(boxCard.current);
-  }, []);
 
   const segmentClickHandler = () => {
     boxCard.current.classList.toggle('segments__box--active');

@@ -1,7 +1,6 @@
 import React from 'react';
 // css
 import './InputList.css';
-// components
 
 const InputList = ({ list, className }) => {
   const inputs = list;
