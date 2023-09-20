@@ -1,12 +1,7 @@
 import React from 'react';
-// css
-// import './Gear.css';
-// assets
-// components
 
 const GearSVG = (props) => {
-
-  const viewBox = "0 0 " + props.width + " " + props.height
+  const viewBox = '0 0 ' + props.width + ' ' + props.height;
 
   return (
     <div className={props.className}>

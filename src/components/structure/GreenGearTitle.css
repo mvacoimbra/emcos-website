@@ -1,8 +1,3 @@
-/* background: var(--grad-bt);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
-
 .gearTitle__container {
   /* flex */
   display: flex;

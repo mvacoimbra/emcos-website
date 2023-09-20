@@ -1,7 +1,4 @@
 import React from 'react';
-// css
-// assets
-// components
 
 const GreenGradGearSVG = (props) => {
   const viewBox = '0 0 ' + props.width + ' ' + props.height;

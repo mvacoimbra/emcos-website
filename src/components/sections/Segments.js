@@ -1,10 +1,9 @@
 import React from 'react';
 // css
 import './Segments.css';
+// components
 import Container from '../structure/Container';
 import SegBox from '../structure/SegBox';
-// assets
-// components
 
 const Segments = () => {
   return (

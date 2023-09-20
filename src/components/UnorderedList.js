@@ -1,12 +1,7 @@
 import React from 'react';
-// css
-// import './UnorderedList.css';
-// assets
-// components
 
 const UnorderedList = (props) => {
-  
-  const classes = props.className
+  const classes = props.className;
 
   return (
     <ul className={classes}>
