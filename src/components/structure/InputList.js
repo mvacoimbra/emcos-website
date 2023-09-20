@@ -1,4 +1,5 @@
 import React from 'react';
+import InputMask from 'react-input-mask';
 // css
 import './InputList.css';
 
@@ -12,13 +13,16 @@ const InputList = ({ list, className }) => {
           return (
             <li className="form__input" key={index}>
               <label>{input.label}</label>
-              <input
-                type={input.type}
-                placeholder={input.placeholder}
-                name={input.name}
-                pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
-                required
-              />
+              <InputMask mask={'(99) 9 9999-9999'} maskChar={'_'}>
+                {() => (
+                  <input
+                    type="tel"
+                    name={input.name}
+                    placeholder={input.placeholder}
+                    required
+                  />
+                )}
+              </InputMask>
             </li>
           );
         } else if (input.type === 'state') {
