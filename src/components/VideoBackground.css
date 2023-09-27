@@ -27,4 +27,6 @@
   width: auto;
   height: auto;
   z-index: -2;
+  -webkit-user-select: none;
+  user-select: none;
 }
